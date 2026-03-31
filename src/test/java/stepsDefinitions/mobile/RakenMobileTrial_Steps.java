@@ -50,7 +50,7 @@ public class RakenMobileTrial_Steps {
 
     @And("I add the phone number")
     public void i_add_the_phone_number() {
-        freeTrialPage.enterPhone("6195698989");
+        freeTrialPage.enterPhone("6196665555");
     }
 
     @And("I add the company name")

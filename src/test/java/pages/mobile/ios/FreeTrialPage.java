@@ -13,7 +13,7 @@ public class FreeTrialPage extends BasePage {
     private final By lastname = AppiumBy.accessibilityId("tf_last_name");
     private final By company = AppiumBy.accessibilityId("tf_company_name");
     private final By phone = AppiumBy.accessibilityId("tf_phone_number");
-    private final By nextButton = AppiumBy.accessibilityId("Nextt");
+    private final By nextButton = AppiumBy.accessibilityId("Next");
     private final By confirmTrialPage = AppiumBy.xpath("//XCUIElementTypeStaticText[@name=\"Welcome to Raken!\"]");
     private final By confirmEmailPage = AppiumBy.xpath("//XCUIElementTypeStaticText[@name=\"Confirm your email\"]");
 
